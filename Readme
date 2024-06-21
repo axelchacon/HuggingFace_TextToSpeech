@@ -1,0 +1,15 @@
+#Paso1 : link del repositorio en Hugging Face -https://huggingface.co/microsoft/speecht5_tts
+#Paso2: copiar el código que está en el link
+
+# Paso3: Usar los pip instalación en tu local , si usas Conda es como esto (conda install -c conda-forge transformers):
+
+- pip install --upgrade pip
+  -pip install transformers
+  -pip install datasets
+  -pip install torch
+  -pip install soundfile
+  -pip install sentencepiece
+
+# Paso4: Ejecutar en la teminal co n el siguiente comando:
+
+-python3 app.py
